@@ -1,0 +1,38 @@
+# Ignorar archivos y directorios de Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+
+# Ignorar archivos y directorios de Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media
+
+# Ignorar archivos y directorios de entorno virtual
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Ignorar archivos y directorios de configuración de IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignorar archivos y directorios de Docker
+Dockerfile
+docker-compose.yml
+
+# Ignorar archivos y directorios de Git
+.git/
+.gitignore
+
+# Ignorar archivos y directorios de pruebas
+tests.py
